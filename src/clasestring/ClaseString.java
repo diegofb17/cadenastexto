@@ -10,12 +10,15 @@ package clasestring;
  * @author whizrxt
  */
 public class ClaseString {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        String s = "iesmardealboran.com";
+        
+        //Tamaño de la cadena
+        System.out.println("Tamaño: " + s.length());
+        
+        //Obtener el char de una posicion concreta
+        System.out.println("Char asociado a la posicion 5 " + s.charAt(5));
+        System.out.println(s);
     }
     
 }

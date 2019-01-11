@@ -79,6 +79,17 @@ public class ClaseString {
         System.out.println("¿Contiene " + s2 + " la subcadena " + aBuscar + "?" + s2.contains(aBuscar));
         
         //Probar métodos endsWith, startsWith, isEmpty
+        //String endWith
+        String compararFinal="alboran";
+        System.out.println(s2 + ", ¿termina con "+ compararFinal + "?" + s2.endsWith("albo"));
+        
+        //String startsWith
+        String compararPrincipio="mar";
+        System.out.println(s2 + "¿empieza con: " + compararPrincipio +"?"+ s2.startsWith("mar"));
+        
+        //String isEmpty
+        String mono="";
+        System.out.println("¿Está vacio el string? " + mono.isEmpty());
         
         //Obtener un array de char de la cadena
         // Declaración de una variable array de tipo char
